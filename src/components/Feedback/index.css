@@ -1,0 +1,26 @@
+/* Write your CSS code here. */
+.app-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to right, #ffeeee, #ffc0bb);
+}
+.feedback-card {
+  background-color: #ffffff;
+  width: 80%;
+  border-radius: 12px;
+  max-width: 606px;
+  padding: 24px;
+}
+@media screen and (min-width: 768px) {
+  .feedback-card {
+    padding: 32px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .feedback-card {
+    padding: 64px;
+  }
+}
